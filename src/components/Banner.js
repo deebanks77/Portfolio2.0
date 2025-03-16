@@ -10,8 +10,9 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const toRotate = ["Full-Stack Developer", "Web Designer"];
+  const toRotate = ["Frontend Developer", "Frontend Engineer"];
   const period = 2000;
+  const yearsOfExperience = new Date().getFullYear() - 2021
 
   useEffect(() => {
     let ticker = setInterval(() => {
@@ -58,12 +59,12 @@ export const Banner = () => {
                   <h1 className="intro">
                     {`Hi! I'm Bankole`}{" "}
                     <span className="txt-rotate">
-                      <span className="wrap">{text}</span>
+                      <span >Frontend Engineer</span>
                     </span>
                   </h1>
                   <p>
                     I am a full stack JavaScript developer with a passion for
-                    crafting high-quality web applications. With 2 years of
+                    crafting high-quality web applications. With {yearsOfExperience} years of
                     experience in the industry, I have developed a deep
                     understanding of the technologies and tools required to
                     build robust, scalable, and responsive web applications.

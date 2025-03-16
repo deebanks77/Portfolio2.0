@@ -97,7 +97,7 @@ export const NavBar = () => {
                   <img src={navIcon2} alt="" />
                 </a>
                 <a
-                  href="https://instagram.com/deebanks247"
+                  href="https://instagram.com/banky7_"
                   target="_blank"
                   rel="noreferrer"
                 >

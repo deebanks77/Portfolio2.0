@@ -4,6 +4,8 @@ import comfySloth from "./assets/img/comfy-sloth2.png";
 import jobster from "./assets/img/jobster.png";
 import netflix from "./assets/img/netflix.png";
 import blackjack from "./assets/img/blackjaqk.png";
+import vizitly from "./assets/img/vizitly.png";
+import clooza from "./assets/img/clooza.png";
 
 const skills = [
   {
@@ -15,6 +17,11 @@ const skills = [
     name: "React",
     image:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+  },
+  {
+    name: "Vue.Js",
+    image:
+      "https://static-00.iconduck.com/assets.00/vue-js-icon-2048x1766-btrgkrhi.png",
   },
   {
     name: "Redux",
@@ -47,7 +54,7 @@ const skills = [
   },
   {
     name: "Tailwind css",
-    image: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-ar21.png",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png",
   },
   {
     name: "Bootstrap",
@@ -58,13 +65,21 @@ const skills = [
     name: "Shopify",
     image: "https://1000logos.net/wp-content/uploads/2020/08/Shopify-Logo.jpg",
   },
-  //   {
-  //     name: "Styled-Component",
-  //     image: "https://cdn.worldvectorlogo.com/logos/styled-components-1.svg",
-  //   },
 ];
 
 const projects = [
+  {
+    title: "Vizitly",
+    description: "Design & Development",
+    imgUrl: vizitly,
+    link: "https://vizitly.io/",
+  },
+  {
+    title: "Clooza",
+    description: "Design & Development",
+    imgUrl: clooza,
+    link: "https://clooza.com/",
+  },
   {
     title: "Netflix Clone",
     description: "Design & Development",
@@ -82,18 +97,6 @@ const projects = [
     description: "Design & Development",
     imgUrl: comfySloth,
     link: "https://sweetcomfy-sloth.netlify.app/",
-  },
-  {
-    title: "Amazon Clone",
-    description: "Design & Development",
-    imgUrl: amazon,
-    link: "https://clone-5a890.firebaseapp.com/",
-  },
-  {
-    title: "Facebook Clone",
-    description: "Design & Development",
-    imgUrl: facebook,
-    link: "https://facebook-clone-dfdd7.firebaseapp.com/",
   },
   {
     title: "Blackjack Game",
