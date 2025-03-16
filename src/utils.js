@@ -1,5 +1,3 @@
-import amazon from "./assets/img/amazon2.png";
-import facebook from "./assets/img/facebook.png";
 import comfySloth from "./assets/img/comfy-sloth2.png";
 import jobster from "./assets/img/jobster.png";
 import netflix from "./assets/img/netflix.png";
